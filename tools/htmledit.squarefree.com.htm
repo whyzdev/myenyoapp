@@ -1,4 +1,130 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
+      padding: 20px;
+    }
+    .tree-container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+    .box {
+      border-radius: 8px;
+      padding: 15px 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .box-title {
+      font-weight: bold;
+      font-size: 0.9em;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      color: #0f172a;
+    }
+    .box-text {
+      font-size: 0.95em;
+      line-height: 1.4;
+      color: #000000;
+    }
+    .level-impact {
+      width: 95%;
+      background-color: #d0e1fd;
+      border: 2px solid #3b82f6;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      width: 100%;
+    }
+    .level-effect {
+      flex: 1;
+      background-color: #e0edff;
+      border: 1.5px solid #60a5fa;
+    }
+    .level-problem {
+      width: 95%;
+      background-color: #bfdbfe;
+      border: 2.5px solid #2563eb;
+      font-weight: bold;
+    }
+    .level-cause {
+      flex: 1;
+      background-color: #f0f7ff;
+      border: 1.5px solid #93c5fd;
+    }
+    .arrow {
+      font-size: 20px;
+      color: #2563eb;
+      margin: -10px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="tree-container">
+  <!-- Impacto Final -->
+  <div class="box level-impact">
+    <div class="box-title">Efecto Final / Impacto a Largo Plazo</div>
+    <div class="box-text">Riesgo de fragmentación en la pervivencia cultural, la soberanía territorial y la autonomía comunitaria del Pueblo Pasto en el corregimiento de Cuatro Esquinas.</div>
+  </div>
+
+  <div class="arrow">▲</div>
+
+  <!-- Efectos -->
+  <div class="row">
+    <div class="box level-effect">
+      <div class="box-title">Efecto 1</div>
+      <div class="box-text">Desmotivación escolar y desconexión entre los contenidos del aula y la vida agrocomunitaria.</div>
+    </div>
+    <div class="box level-effect">
+      <div class="box-title">Efecto 2</div>
+      <div class="box-text">Nichos de problematización socioafectiva y tensiones identitarias generadas por el encuentro tenso entre los modelos de consumo globalizados y la memoria ancestral del territorio.</div>
+    </div>
+    <div class="box level-effect">
+      <div class="box-title">Efecto 3</div>
+      <div class="box-text">Ruptura en la transmisión intergeneracional de saberes y debilitamiento del relevo generacional en el gobierno propio.</div>
+    </div>
+  </div>
+
+  <div class="arrow">▲</div>
+
+  <!-- Problema Central -->
+  <div class="box level-problem">
+    <div class="box-title">Problema Central</div>
+    <div class="box-text">Debilitamiento de los usos y costumbres ancestrales (shagra, tulpa y minga) y desarticulación del sentido de pertenencia territorial en estudiantes de 8.º y 9.º de la Institución Educativa Agropecuaria Cuatro Esquinas.</div>
+  </div>
+
+  <div class="arrow">▲</div>
+
+  <!-- Causas -->
+  <div class="row">
+    <div class="box level-cause">
+      <div class="box-title">Causa 1</div>
+      <div class="box-text">Currículo escolar estandarizado y escasa transversalización de la educación propia en las áreas fundamentales.</div>
+    </div>
+    <div class="box level-cause">
+      <div class="box-title">Causa 2</div>
+      <div class="box-text">Presión persuasiva de los modelos de consumo digital, inmediatez y tendencias globales en la juventud rural.</div>
+    </div>
+    <div class="box level-cause">
+      <div class="box-title">Causa 3</div>
+      <div class="box-text">Escasez de escenarios de liderazgo y diálogo intergeneracional para los jóvenes en la escuela y el Cabildo.</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html><!DOCTYPE html>
 <!-- saved from url=(0031)http://htmledit.squarefree.com/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Real-time HTML Editor</title>
